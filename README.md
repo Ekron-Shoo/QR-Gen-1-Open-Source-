@@ -6,11 +6,11 @@ JavaScript library for generating QR codes with a logo and styling.
 
 
 
-### Examples
+### Example
 <p float="left">
-<img style="display:inline-block" src="https://raw.githubusercontent.com/kozakdenys/qr-code-styling/master/src/assets/facebook_example_new.png" width="240" />
-<img style="display:inline-block" src="https://raw.githubusercontent.com/kozakdenys/qr-code-styling/master/src/assets/telegram_example_new.png" width="240" />
+    <img style="display:inline-block" src="https://user-images.githubusercontent.com/67784844/143530370-881d0674-fba9-4752-9e3d-fedc1160547e.png" width="240" />
 </p>
+
 
 
 
@@ -33,13 +33,13 @@ JavaScript library for generating QR codes with a logo and styling.
         height: 300,
         type: "svg",
         data: "https://www.facebook.com/",
-        image: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/8/86/Youtube_%281%29.svg",
         dotsOptions: {
-            color: "#4267b2",
-            type: "rounded"
+            color: "rgb(256,0,0)",
+            type: "classy-rounded",
         },
         backgroundOptions: {
-            color: "#e9ebee",
+            color: "#0d1117",
         },
         imageOptions: {
             crossOrigin: "anonymous",
